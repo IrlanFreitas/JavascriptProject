@@ -1,0 +1,221 @@
+
+[08:29:03] Ademílson F. Tonato: então, precisas de ajuda com js, certo?
+
+
+[08:30:54] Ademílson F. Tonato: atualmente, trabalhas como dev?
+
+
+[08:34:48] Ademílson F. Tonato: e o quão confortável sente-se atualmente com js?
+
+
+[08:37:44] Ademílson F. Tonato: hoje, usas js diariamente?
+
+
+[08:39:15] Ademílson F. Tonato: legal
+
+[08:39:21] Ademílson F. Tonato: bom, vamos testar seu nível de js, pode ser?
+
+
+
+[08:40:45] Ademílson F. Tonato: faça esse e me mande a resposta, por favor
+
+[08:40:46] Ademílson F. Tonato: https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript
+
+
+[08:42:00] Ademílson F. Tonato: basicamente ele te diz quantas você acertou eu acho
+
+
+[08:45:35] Irlan Freitas: https://www.w3schools.com/quiztest/quiztest.asp?qtest=JavaScript
+
+
+[08:46:39] Irlan Freitas: Acho que bem o meu problema
+
+[08:46:46] Irlan Freitas: Usar o js com criatividade
+
+[08:46:52] Irlan Freitas: entender o ambiente
+
+[08:46:55] Irlan Freitas: e o que pode ser feito
+
+
+
+[08:54:20] Ademílson F. Tonato: esse é um teste básico, mas já mostra-me que o básico você sabe
+
+[08:54:31] Ademílson F. Tonato: qual maneira, julga-se mais produtivo aprendendo
+
+[08:54:39] Ademílson F. Tonato: lendo livros, assistindo cursos ou de que forma?
+
+[08:55:10] Irlan Freitas: assistindo cursos e usando em um projeto
+
+[08:55:14] Irlan Freitas: e artigos também
+
+[08:55:24] Irlan Freitas: gosto de ler, quer dizer, estou aprendendo a gostar
+
+[08:56:06] Ademílson F. Tonato: certo, e você tem a conta da alura com todos os cursos disponívels?
+
+[08:56:14] Irlan Freitas: sim,
+
+[08:56:23] Ademílson F. Tonato: bom, podemos fazer da seguinte maneira
+
+[08:56:32] Ademílson F. Tonato: te recomendo um curso X de lá
+
+[08:56:39] Ademílson F. Tonato: você faz, e quando terminar me explica o que aprendeu
+
+[08:56:46] Ademílson F. Tonato: para eu criar desafios baseado no conhecimento aprendido
+
+[08:56:50] Irlan Freitas: owww
+
+[08:56:52] Irlan Freitas: otimo
+
+[08:58:30] Irlan Freitas: caramba, isso vai ser muito legal
+
+[08:58:39] Ademílson F. Tonato: beleza, eu sempre uso esse método
+
+[08:58:43] Ademílson F. Tonato: para ensinar qualquer coisa
+
+[08:58:51] Irlan Freitas: Método Feynman
+
+[08:58:53] Ademílson F. Tonato: então, deixa eu ver aqui na alura qual curso tem
+
+[08:59:02] Irlan Freitas: beleza
+
+[08:59:48] Ademílson F. Tonato: Tipo isso, mas ele ganhou o nobel eu não haha
+
+[09:00:03] Irlan Freitas: shuauashaushua
+
+[09:00:09] Irlan Freitas: quem sabe
+
+[09:00:16] Ademílson F. Tonato: bom, você pode ir fazendo esses
+
+
+[09:00:25] Ademílson F. Tonato: mas deixa eu só salientar algumas coisas
+
+[09:00:37] Ademílson F. Tonato: comece por esse:
+
+JavaScript - Programando na linguagem da web
+
+[09:01:09] Irlan Freitas: Certo,
+
+[09:01:20] Irlan Freitas: Acho que pode ir bolando os desafios
+
+[09:01:32] Irlan Freitas: e que vou te dar um resumo
+
+[09:01:35] Ademílson F. Tonato: blz
+
+[09:01:40] Ademílson F. Tonato: deixa eu fazer a grade aqui
+
+[09:02:28] Ademílson F. Tonato: a grade final será essa:
+
+[09:02:29] Ademílson F. Tonato: 
+
+1 - Curso JavaScript: Programando na linguagem da web
+
+2 - Curso JavaScript avançado I: ES6, orientação a objetos e padrões de projetos
+
+3 - Curso JavaScript Avançado II: ES6, orientação a objetos e padrões de projetos
+
+4 - Curso JavaScript Avançado III: ES6, orientação a objetos e padrões de projetos
+
+[09:02:52] Ademílson F. Tonato: se ao começar o curso (2) sugerido, você julgar muito difícil, me fale que vamos ir aprendendo juntos cada módulo do curso, ok?
+
+[09:03:01] Ademílson F. Tonato: enquanto isso irei entender quais desafios criar
+
+[09:03:06] Ademílson F. Tonato: e fica definido a seguinte metodologia
+
+[09:03:39] Ademílson F. Tonato: enquanto você faz o curso, se tiver qualquer dúvida, você me envia, que eu te mando links/áudios/vídeos para explicar como resolver, ou o conteúdo não entendido
+
+[09:04:04] Ademílson F. Tonato: ao finalizar cada módulo, podemos fazer um review juntos, onde você me explica o que aprendeu e me da casos de uso real do que foi aprendido
+
+[09:04:21] Ademílson F. Tonato: feito isso, vamos indo até finalizar o curso todo
+
+[09:04:43] Ademílson F. Tonato: com o curso completo, fazemos uma chamada de áudio/vídeo onde você me explica tudo que foi aprendido de forma resumida, e eu te passo o desafio
+
+[09:04:57] Ademílson F. Tonato: pode ser assim ou tens alguma sugestão a acrescentar?
+
+
+[09:05:52] Irlan Freitas: Acho que falta somente questões de feebacks, que tenho que passar
+
+
+
+[09:06:13] Ademílson F. Tonato: você que sabe, pode ir fazendo isso a hora que quiser
+
+[09:06:22] Ademílson F. Tonato: mas eu gostaria que fosse algo semanal
+
+[09:06:34] Ademílson F. Tonato: embora entenda que se não conseguir em uma semana, me mandará na próxima
+
+[09:06:45] Ademílson F. Tonato: e caso tenha qualquer problema com o curso ou o método me avisará
+
+[09:07:05] Ademílson F. Tonato: além é claro, se você sumir como outros mentorados, eu não estarei correndo atrás, embora eu incentive o aprendizado
+
+[09:07:10] Ademílson F. Tonato: combinado?
+
+[09:07:23] Ademílson F. Tonato: uma vez por semana ou a cada 15 dias, conforme ficar mais fácil para você, você me da um feedback
+
+[09:07:37] Ademílson F. Tonato: embora eu acho que termina um método a cada 15 dias (e sobra tempo)
+
+[09:08:36] Irlan Freitas: combinado?
+
+[09:08:38] Irlan Freitas: Sim
+
+[09:08:41] Irlan Freitas: não vou sumir
+
+[09:08:45] Irlan Freitas: e podemos mesclar
+
+[09:08:57] Irlan Freitas: caso eu termine o curso antes e aplique bem o aprendizado
+
+[09:10:04] Ademílson F. Tonato: blz,
+
+[09:10:16] Ademílson F. Tonato: você usa o github, certo?
+
+[09:10:19] Irlan Freitas: sim
+
+[09:10:36] Ademílson F. Tonato: certo, conhece as partes básicas
+
+[09:10:43] Ademílson F. Tonato: branchs / pull-requests / issues?
+
+[09:11:00] Irlan Freitas: haushua sei a teoria
+
+[09:11:02] Irlan Freitas: e sei me virar
+
+[09:11:09] Ademílson F. Tonato: então fechado, já serve haha
+
+[09:11:19] Ademílson F. Tonato: crie um repositório lá: aprendendo-js
+
+[09:11:23] Ademílson F. Tonato: ou qualquer coisa do tipo
+
+[09:11:35] Ademílson F. Tonato: com 1 diretório dentro com o nome do curso esse primeiro
+
+[09:11:45] Ademílson F. Tonato: e a cada módulo, deixe um resumo para eu ver
+
+[09:11:48] Ademílson F. Tonato: exemplo:
+
+[09:15:47] Ademílson F. Tonato: se não entender me avise haha
+
+[09:16:16] Ademílson F. Tonato: se quiser ir adicionando exercícios aí dentro também, pode ser
+
+[09:16:22] Irlan Freitas: tem que ser em .md ?
+
+[09:16:27] Ademílson F. Tonato: é só um exemplo de como organizar, para que consigamos manter um padrão
+
+[09:16:32] Irlan Freitas: tranquilo
+
+[09:16:37] Ademílson F. Tonato: .md é de markdown (porque teoricamente terá só texto)
+
+[09:16:38] Irlan Freitas: eu entendi sem problemas
+
+[09:16:47] Ademílson F. Tonato: mas se quiser que seja .pdf / .txt, por mim tanto faz
+
+[09:16:52] Irlan Freitas: belelza
+
+[09:17:01] Irlan Freitas: vou bolar um .md de respeito
+
+[09:17:06] Ademílson F. Tonato: beleza
+
+[09:17:09] Ademílson F. Tonato: quando começamos?
+
+[09:17:33] Irlan Freitas: hoje vou bolar o git
+
+[09:17:38] Irlan Freitas: preciso do seu usuário
+
+[09:17:41] Irlan Freitas: pra te dar acesso
+
+[09:18:57] Ademílson F. Tonato: @ftonato
