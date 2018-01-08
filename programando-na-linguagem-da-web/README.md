@@ -11,8 +11,6 @@
 	- A função seletora `querySelector`
 	- Acessando os textos de um elemento
 	- [O que eu aprendi?](01/o-que-eu-aprendi.md)
-	- [Desafio](01/desafio.md)
-	- [Desafio - solução](01/desafio-solucao.md)
 02. **Variáveis e Operadores**
 	- Buscando dados dentro de um elementos
 	- As variáveis no Javascript
