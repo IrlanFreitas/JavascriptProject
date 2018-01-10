@@ -40,7 +40,8 @@
     </ul>
 
     <div>Resultado:
-        <span></span><br>
+        <span></span>
+        <br>
         <span class="resultado"></span>
     </div>
 
@@ -70,50 +71,47 @@
         */
 
 
-        var primeiraLinha = document.querySelectorAll("li:not(.item)")
-        var segundaLinha = document.querySelectorAll("li.item")
-        var exibeValor = document.querySelector("span")
-        var exibeFrase = document.querySelector("span.resultado")
+        var valoresPrimeiraLinha = document.querySelectorAll("li:not(.item)")
+        var valoresSegundaLinha = document.querySelectorAll("li.item")
+        var exibeFraseSpan = document.querySelector("span.resultado")
 
-        var soma = 0;
+        var valorAculumado = 0;
+        var resultado = 0;
 
-        primeiraLinha.forEach(function (item) {
-            soma += Number(item.textContent)
+        valoresPrimeiraLinha.forEach(function (item) {
+            valorAculumado += Number(item.textContent)
         })
-
-        for (let i = 0; i  < segundaLinha.length; i++) {
-            if (i == 0) {
-                validarValor(soma / Number(segundaLinha[i].textContent))
+        
+        for (let i = 0; i < valoresSegundaLinha.length; i++) {
+            if (i === 0) {
+                resultado = valorAculumado / Number(valoresSegundaLinha[i].textContent)
             }
-            if (i == 1) {
-                validarValor(soma - Number(segundaLinha[i].textContent))
+            else if (i === 1) {
+                resultado = resultado - Number(valoresSegundaLinha[i].textContent)
             }
-            if (i == 2) {
-                validarValor(soma * Number(segundaLinha[i].textContent))
+            else {
+                resultado = resultado * Number(valoresSegundaLinha[i].textContent)
             }
         }
 
-        function imprimirValor(valor) {
-            exibeValor.textContent += " " + Number(valor).toFixed(0);
-        }
-
-        function imprimirTexto(texto) {
-            exibeFrase.textContent += " " + texto
-        }
+        validarValor(resultado)
 
         function validarValor(valor) {
-            if (valor < 10) {
-                imprimirTexto("Valor menor do que o esperado")
-            }
-            if (valor === 10) {
-                imprimirTexto("Valor próximo ao esperado")
-            }
-            if (valor > 10) {
-                imprimirTexto("Valor esperado")
-            }
-            imprimirValor(valor)
-        }
+            document.querySelector("span").textContent = Number(valor).toFixed(0);
 
+            if (valor < 10) {
+                exibeFraseSpan.textContent = "Valor menor do que o esperado"
+                return
+            }
+            else if (valor === 10) {
+                exibeFraseSpan.textContent = "Valor próximo ao esperado"
+                return
+            }
+            else {
+                exibeFraseSpan.textContent = "Valor esperado"
+                return
+            }
+        }
 
     </script>
 </body>
