@@ -51,10 +51,10 @@
 		 *
 		 * Crie variáveis que armaze os valores das listas, e calcular:
 		 *
-		 * (Somar os items da primeira linha)
-		 * (Multiplicar o resultado obtido pelo último item da segunda linha)
-		 * (Dividir o resultado obtido pelo primeiro item da segunda linha)
-		 * (Subtrair o resultado obtido pelo segundo item da segunda linha)
+		 * (_Somar os items da primeira linha)
+		 * (Multiplicar o _valor obtido pelo último item da segunda linha)
+		 * (Dividir o _valor obtido pelo primeiro item da segunda linha)
+		 * (Subtrair o _valor obtido pelo segundo item da segunda linha)
 		 * 
 		 * Exibir o valor obtido dentro da tag (span)
 		 */
@@ -63,55 +63,76 @@
         *
         * Atenção para algumas regras:
         *
-        * Se o valor for < 10, o resultado é: `Valor menor do que o esperado`
-        * Se o valor for = 10, o resultado é: `Valor próximo ao esperado`
-        * Se o valor for > 10, o resultado é: `Valor esperado`
+        * Se o valor for < 10, o _valor é: `Valor menor do que o esperado`
+        * Se o valor for = 10, o _valor é: `Valor próximo ao esperado`
+        * Se o valor for > 10, o _valor é: `Valor esperado`
         * 
-        * Exibir a frase acima, conforme regra na tag span (.resultado)
+        * Exibir a frase acima, conforme regra na tag span (._valor)
         */
 
+        var $valoresPrimeiraLinha = document.querySelectorAll("li:not(.item)")
+        var $valoresSegundaLinha = document.querySelectorAll("li.item")
+        var $exibeFraseSpan = document.querySelector("span.resultado")
 
-        var valoresPrimeiraLinha = document.querySelectorAll("li:not(.item)")
-        var valoresSegundaLinha = document.querySelectorAll("li.item")
-        var exibeFraseSpan = document.querySelector("span.resultado")
-
-        var valorAculumado = 0;
-        var resultado = 0;
-
-        valoresPrimeiraLinha.forEach(function (item) {
-            valorAculumado += Number(item.textContent)
-        })
-        
-        for (let i = 0; i < valoresSegundaLinha.length; i++) {
-            if (i === 0) {
-                resultado = valorAculumado / Number(valoresSegundaLinha[i].textContent)
-            }
-            else if (i === 1) {
-                resultado = resultado - Number(valoresSegundaLinha[i].textContent)
-            }
-            else {
-                resultado = resultado * Number(valoresSegundaLinha[i].textContent)
-            }
+        function calcularValoresPrimeiraLinha() {
+            let _soma = 0;
+            $valoresPrimeiraLinha.forEach(function (item) {
+                _soma += Number(item.textContent)
+            })
+            return _soma
         }
 
-        validarValor(resultado)
+        function calcularValoresSegundaLinha() {
+            var _valor = calcularValoresPrimeiraLinha();
+
+            for (let i = 0; i < $valoresSegundaLinha.length; i++) {
+                if (i === 0) {
+                    _valor = _valor / Number($valoresSegundaLinha[i].textContent)
+                }
+                else if (i === 1) {
+                    _valor = _valor - Number($valoresSegundaLinha[i].textContent)
+                }
+                else {
+                    _valor = _valor * Number($valoresSegundaLinha[i].textContent)
+                }
+            }
+
+            return _valor
+        }
 
         function validarValor(valor) {
-            document.querySelector("span").textContent = Number(valor).toFixed(0);
+            let _resposta
 
             if (valor < 10) {
-                exibeFraseSpan.textContent = "Valor menor do que o esperado"
-                return
+                _resposta = "Valor menor do que o esperado"
             }
             else if (valor === 10) {
-                exibeFraseSpan.textContent = "Valor próximo ao esperado"
-                return
+                _resposta = "Valor próximo ao esperado"
             }
             else {
-                exibeFraseSpan.textContent = "Valor esperado"
-                return
+                _resposta = "Valor esperado"
             }
+            console.log(_resposta);
+            
+            return _resposta
         }
+
+        function imprimeResultado(valor) {
+            document.querySelector("span").textContent = Number(valor).toFixed(0);
+            $exibeFraseSpan.textContent = validarValor(valor)
+        }
+
+        imprimeResultado(calcularValoresSegundaLinha())
+
+        /*
+        Considerações:
+        // Hoisting do JS - https://felipenmoura.com/articles/hoisting-no-javascript/
+        // boas práticas na criação de variáveis
+        // entenda a diferença entre (var vs let vs const) - http://www.matera.com/br/2017/05/09/javascript-6-diferenca-entre-var-let-e-const/
+        // nome de variáveis que representam dados do DOM devem começar com $ (é só uma boa prática) (ex.: $$exibeFraseSpan)
+        // nome de variáveis `privadas` devem começar com (underline) (ex.: _res)
+        // funcões de primeira classe - https://medium.com/@angelorubin/javascript-first-class-function-fun%C3%A7%C3%B5es-de-primeira-classe-7ebf63d2c83a
+        */
 
     </script>
 </body>
