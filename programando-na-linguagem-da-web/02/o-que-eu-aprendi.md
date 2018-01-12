@@ -1,11 +1,12 @@
-document.querySelector() - Conseque obter qualquer elemento do DOM, porem, singularmente caso existam mais elementos no mesmo paramentro só retornará o primeiro
+`document.querySelector()` - Conseque obter qualquer elemento do DOM, porem, singularmente caso existam mais elementos no mesmo paramentro só retornará o primeiro
 
-document.querySelectorAll() - Consegue obter todas as ocorrencias do seletor dentro dos paramentros e colocar em uma "lista", mas, é necessário tratar essa lista para obter o valor
+`document.querySelectorAll()` - Consegue obter todas as ocorrencias do seletor dentro dos paramentros e colocar em uma "lista", mas, é necessário tratar essa lista para obter o valor
 
 Adiantando um pouco:
 
 Obtive o valor de todos os elementos da lista pois, estão com a classe paciente e com isso e um laço de repetição, mudei todas as referencias com o imc calculado.
 
+```javascript
 var pacientes = document.querySelectorAll(".paciente")
 
 // console.log(pacientes);
@@ -18,7 +19,7 @@ pacientes.forEach( function(paciente) {
     paciente.querySelector(".info-imc").textContent = (peso.textContent /(altura * altura)).toFixed(2)
 })
 
-Aperfeiçoando a tecnica, é necessário que se valide os dados de peso e altura que está na tabela, com isso uma função para verificação foi criada:
+// Aperfeiçoando a tecnica, é necessário que se valide os dados de peso e altura que está na tabela, com isso uma função para verificação foi criada:
 
 pacientes.forEach(function (paciente) {
     calculaImc(paciente)
@@ -51,3 +52,4 @@ function calculaImc(paciente) {
     }
 
 }
+```
