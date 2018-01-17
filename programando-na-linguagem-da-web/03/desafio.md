@@ -80,7 +80,7 @@
 		/*
 		 * Calcular IMC de forma dinâmica
 		 *
-		 * Precisamos descobrir o IMC de crianças e adolecentes (6 a 15 anos)
+		 * Precisamos descobrir o IMC de crianças e adolescentes (6 a 15 anos)
 		 * Seguindo a tabela da imagem (https://goo.gl/r2Yv6p) transcreva qual o IMC
 		 * e em qual categoria cada criança se encaixa
 		 * 
