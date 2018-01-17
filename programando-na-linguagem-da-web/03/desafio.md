@@ -80,8 +80,8 @@
 		/*
 		 * Calcular IMC de forma dinâmica
 		 *
-		 * Precisamos descobrir o IMC de crianças e adolecentes (6 a 17 anos)
-		 * Seguindo a tabela da imagem (https://goo.gl/xrp5qY) transcreva qual o IMC
+		 * Precisamos descobrir o IMC de crianças e adolecentes (6 a 15 anos)
+		 * Seguindo a tabela da imagem (https://goo.gl/r2Yv6p) transcreva qual o IMC
 		 * e em qual categoria cada criança se encaixa
 		 * 
 		 * == CODE ==
@@ -91,8 +91,8 @@
 		 * maiores que zero
 		 * 1.2 - Os dados (genero) devem ser gerados conforme a tabela
 		 * ('F' = Feminino, 'M' = Masculino)
-		 * 1.3 - Os dados (idade) devem ser valores entre 6 e 17
-		 * Exemplo: { altura: 1.53, peso: 62.28, genero: 'F', idade: 16 }
+		 * 1.3 - Os dados (idade) devem ser valores entre 6 e 15
+		 * Exemplo: { altura: 1.43, peso: 46.28, genero: 'F', idade: 14 }
 		 *
 		 * Deverão ser gerados dados para 10 pessoas
 		 * Todos os dados deverão ser exibidos na tabela (.generic_table)
