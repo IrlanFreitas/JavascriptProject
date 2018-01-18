@@ -188,7 +188,7 @@
             } else if (imc > sobrepeso && imc < obesidade) {
                 return categorias.sobrepeso
             } else {
-                return categorias.sobrepeso
+                return categorias.obesidade
             }
         }
 
@@ -205,7 +205,7 @@
             let _peso = geradorDeNumeros(20, 55).toFixed(2)
             let _imc = calculaImc(_peso, _altura)
             let _genero = geradorDeGenero()
-            let _idade = parseInt(geradorDeNumeros(6, 15))
+            let _idade = parseInt(geradorDeNumeros(6, 16))
 
             return pessoa = {
                 altura: _altura,
@@ -221,22 +221,6 @@
             for (let index = 0; index < quantidade; index++) {
                 data.push(getPessoa())
             }
-        }
-
-        function adicionaLinha(pessoa) {
-            let $linha = document.createElement("tr");
-
-            $linha.appendChild(gerarColuna(pessoa.altura))
-            $linha.appendChild(gerarColuna(pessoa.peso))
-            $linha.appendChild(gerarColuna(pessoa.genero))
-            $linha.appendChild(gerarColuna(pessoa.idade))
-            $linha.appendChild(gerarColuna(pessoa.imc))
-            $linha.appendChild(gerarColuna(pessoa.cagetoria))
-
-            if (pessoa.cagetoria !== categorias.normal) {
-                $linha.classList.add(verificarClasseCategoria(pessoa.cagetoria))
-            }
-            $tabelaPessoas.appendChild($linha)
         }
 
         function gerarColuna(texto) {
@@ -258,6 +242,22 @@
             } else {
                 return "obesity"
             }
+        }
+
+        function adicionaLinha(pessoa) {
+            let $linha = document.createElement("tr");
+
+            $linha.appendChild(gerarColuna(pessoa.altura))
+            $linha.appendChild(gerarColuna(pessoa.peso))
+            $linha.appendChild(gerarColuna(pessoa.genero))
+            $linha.appendChild(gerarColuna(pessoa.idade))
+            $linha.appendChild(gerarColuna(pessoa.imc))
+            $linha.appendChild(gerarColuna(pessoa.cagetoria))
+
+            if (pessoa.cagetoria !== categorias.normal) {
+                $linha.classList.add(verificarClasseCategoria(pessoa.cagetoria))
+            }
+            $tabelaPessoas.appendChild($linha)
         }
 
         geradorDados(10)
