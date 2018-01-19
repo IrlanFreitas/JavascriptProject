@@ -185,9 +185,9 @@
         function classificarCategoria(imc, normal, sobrepeso, obesidade) {
             if (imc < normal) {
                 return categorias.baixoPeso
-            } else if (imc > normal && imc < sobrepeso) {
+            } else if (imc >= normal && imc < sobrepeso) {
                 return categorias.normal
-            } else if (imc > sobrepeso && imc < obesidade) {
+            } else if (imc >= sobrepeso && imc < obesidade) {
                 return categorias.sobrepeso
             } else {
                 return categorias.obesidade
