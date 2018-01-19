@@ -68,6 +68,8 @@
 
 
     <script type="text/javascript">
+        "use strict"
+
         const data = [];
         const categorias = { baixoPeso: "Baixo peso", normal: "Normal", sobrepeso: "Sobrepeso", obesidade: "Obesidade" }
         const $tabelaPessoas = document.querySelector(".generic_table > tbody")
@@ -207,7 +209,7 @@
             let _genero = geradorDeGenero()
             let _idade = parseInt(geradorDeNumeros(6, 16))
 
-            return pessoa = {
+            return {
                 altura: _altura,
                 peso: _peso,
                 genero: _genero,
