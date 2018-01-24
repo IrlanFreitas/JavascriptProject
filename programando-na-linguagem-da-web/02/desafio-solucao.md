@@ -73,59 +73,55 @@
         * Exibir a frase acima, conforme regra na tag span (._valor)
         */
 
-        var $valoresPrimeiraLinha = document.querySelectorAll("li:not(.item)")
-        var $valoresSegundaLinha = document.querySelectorAll("li.item")
-        var $exibeFraseSpan = document.querySelector("span.resultado")
+        var $valoresPrimeiraLinha = document.querySelectorAll("li:not(.item)");
+        var $valoresSegundaLinha = document.querySelectorAll("li.item");
+        var $exibeFraseSpan = document.querySelector("span.resultado");
 
         function calcularValoresPrimeiraLinha() {
-            let _soma = 0;
-            $valoresPrimeiraLinha.forEach(function (item) {
-                _soma += Number(item.textContent)
-            })
-            return _soma
+          let _soma = 0;
+          $valoresPrimeiraLinha.forEach(function(item) {
+            _soma += Number(item.textContent);
+          });
+          return _soma;
         }
 
         function calcularValoresSegundaLinha() {
-            var _valor = calcularValoresPrimeiraLinha();
+          var _valor = calcularValoresPrimeiraLinha();
 
-            for (let i = 0; i < $valoresSegundaLinha.length; i++) {
-                if (i === 0) {
-                    _valor = _valor / Number($valoresSegundaLinha[i].textContent)
-                }
-                else if (i === 1) {
-                    _valor = _valor - Number($valoresSegundaLinha[i].textContent)
-                }
-                else {
-                    _valor = _valor * Number($valoresSegundaLinha[i].textContent)
-                }
+          for (let i = 0; i < $valoresSegundaLinha.length; i++) {
+            if (i === 0) {
+              _valor = _valor / Number($valoresSegundaLinha[i].textContent);
+            } else if (i === 1) {
+              _valor = _valor - Number($valoresSegundaLinha[i].textContent);
+            } else {
+              _valor = _valor * Number($valoresSegundaLinha[i].textContent);
             }
+          }
 
-            return _valor
+          return _valor;
         }
 
         function validarValor(valor) {
-            let _resposta
+          let _resposta;
 
-            if (valor < 10) {
-                _resposta = "Valor menor do que o esperado"
-            }
-            else if (valor === 10) {
-                _resposta = "Valor próximo ao esperado"
-            }
-            else {
-                _resposta = "Valor esperado"
-            }
-            console.log(_resposta);
-            
-            return _resposta
+          if (valor < 10) {
+            _resposta = "Valor menor do que o esperado";
+          } else if (valor === 10) {
+            _resposta = "Valor próximo ao esperado";
+          } else {
+            _resposta = "Valor esperado";
+          }
+          console.log(_resposta);
+
+          return _resposta;
         }
 
         function imprimeResultado(valor) {
-            document.querySelector("span").textContent = Number(valor).toFixed(0);
-            $exibeFraseSpan.textContent = validarValor(valor)
+          document.querySelector("span").textContent = Number(valor).toFixed(0);
+          $exibeFraseSpan.textContent = validarValor(valor);
         }
 
-        imprimeResultado(calcularValoresSegundaLinha())
+        imprimeResultado(calcularValoresSegundaLinha());
 
         /*
         Considerações:
