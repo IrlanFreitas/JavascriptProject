@@ -40,8 +40,6 @@
 	- Criando elementos com Javascript
 	- Adicionando elementos na página
 	- [O que eu aprendi?](04/o-que-eu-aprendi.md)
-	- [Desafio](04/desafio.md)
-	- [Desafio - solução](04/desafio-solucao.md)
 05. **Boas Práticas com Javascript**
 	- Quebrando o código em arquivos
 	- Importando múltiplos arquivos
@@ -50,8 +48,6 @@
 	- Objetos em Javascript
 	- Princípio da Responsabilidade Única
 	- [O que eu aprendi?](05/o-que-eu-aprendi.md)
-	- [Desafio](05/desafio.md)
-	- [Desafio - solução](05/desafio-solucao.md)
 06. **Validação de Formulários**
 	- Validando campos
 	- O operador lógico NOT
@@ -59,8 +55,6 @@
 	- Capturando erros
 	- Exibindo mensagens de erro para o usuário
 	- [O que eu aprendi?](06/o-que-eu-aprendi.md)
-	- [Desafio](06/desafio.md)
-	- [Desafio - solução](06/desafio-solucao.md)
 07. **Remoção, Delegação e Animação**
 	- O evento de duplo clique
 	- Removendo elementos com Javascript
@@ -76,8 +70,6 @@
 	- Buscando texto com Javascript
 	- Melhorando a busca com Expressões Regulares
 	- [O que eu aprendi?](08/o-que-eu-aprendi.md)
-	- [Desafio](08/desafio.md)
-	- [Desafio - solução](08/desafio-solucao.md)
 09. **Buscando pacientes com AJAX**
 	- O objeto XMLHttpRequest
 	- Configurando a requisição
@@ -87,9 +79,3 @@
 	- Tratando erros da rede
 	- Uma mensagem de erro para o usuário
 	- [O que eu aprendi?](09/o-que-eu-aprendi.md)
-	- [Desafio](09/desafio.md)
-	- [Desafio - solução](09/desafio-solucao.md)
-
-- [O que eu aprendi com o curso?](o-que-eu-aprendi.md)
-- [Desafio do curso](desafio.md)
-- [Desafio do curso - solução](desafio-solucao.md)

@@ -1,0 +1,1 @@
+Toda solução realizada neste desafio está armazenado nesse diretório, e pode ser visulizado através do arquivo `desafio07.html`.
